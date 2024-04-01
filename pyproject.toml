@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "afridial"
+version = "0.0.1"
+authors = [
+	{name="Zyambo", email="zyambopeter1@gmail.com"},
+]
+description = "Afridial: A Python library for identifying African phone numbers and network providers."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/sangwani-coder/afridial"
